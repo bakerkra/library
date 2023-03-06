@@ -1,0 +1,15 @@
+class Multiplication:
+    
+    def __init__(self, multiplier):
+        self.multiplier = multiplier
+    
+    def multiply(self, number):
+
+        nb = int(input("first nb: "))
+        m = int(input("second nb: "))
+
+        return nb * m
+
+multiplication = Multiplication(2)
+
+print(multiplication.multiply(5))
